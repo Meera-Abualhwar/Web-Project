@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./PortfolioCSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./logo2.png">
+
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo"><img src="./logo.jpg" alt="Logo" class="logo-img"> MEERA</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="text">
+                <h3>Hello, It's Me</h3>
+                <h1>Meera Abu-alhwar</h1>
+                <h2>And I'm a 
+                    <span id="fiest" data-text="Computer Sim Student">Computer Sim Student</span> 
+                    <span id="second" data-text="Web Developer">Web Developer</span></h2>
+                <p>Passionate about creating clean, responsive, and user-friendly web applications using HTML, CSS and interactive 3D physics simulations.</p>
+                
+                <div class="btn-box">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="#projects" class="btn btn-sec">My Work</a>
+                </div>
+                <div class="soci">
+                    <a href="https://www.linkedin.com/in/meera-abu-alhwar-a2b057339" target="_blank"><img src="./lineked2.png" alt="Linedin"></a>
+                    <a href="mailto:202405144@bethlehem.edu" target="_blank"><img src="./gmail.png" alt="Gmail"></a>
+                    <a href="https://github.com/Meera-Abualhwar" target="_blank"><img src="./github.png" alt="Github"></a>
+                </div>
+            </div>   
+        <div class="home-img">
+            <div class="img-box">
+            <img src="./logo2.png" alt="My Logo">
+         </div>
+         </div>
+        </section>
+
+        <!-- About -->
+        <section class="about" id="about">
+            <h2 class="title">About <span>Me</span></h2>
+            <div class="text">
+                <h3>Computer Simulation Student</h3>
+                <p>I am a Bethlehem University student passionate about creating responsive websites, computer simulation models to build, test, and optimize virtual prototypes efficiently.</p>
+            </div>
+        </section>
+
+        <!-- Skills-->
+        <section class="skills" id="skills">
+            <h2 class="title">My <span>Skills</span></h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>HTML</h3>
+                </div>
+                <div class="card">
+                    <h3>CSS</h3>
+                </div>
+                <div class="card">
+                    <h3>JAVA</h3>
+                </div>
+                <div class="card">
+                    <h3>PYTHON</h3>
+                </div>
+                <div class="card">
+                    <h3>PROBLEM SOLVING</h3>
+                </div>
+                <div class="card">
+                    <h3>ABAQUS</h3>
+                </div>
+                <div class="card">
+                    <h3>Mechanical Design</h3>
+                </div>
+                <div class="card">
+                    <h3>MATLAB</h3>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Projects-->
+        <section class="projects" id="projects">
+            <h2 class="title">My <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="./PROJ1.png" alt="Abaqus Project">
+                    </div>
+                    <div class="card-info">
+                        <h3>3D Modeling on Abaqus</h3>
+                        <p>Finite Element Analysis and Simulation where we can model complex mechanical systems to understand their behavior under various conditions.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="./PRO2.png" alt="Java Pro">
+                    </div>
+                    <div class="card-info">
+                        <h3>Java project</h3>
+                        <p>A simple Java application for buying Jewelry,it shows the available items and allows users to make purchases so easily.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact-->
+        <section class="contact" id="contact">
+            <h2 class="title">Contact <span>Me</span></h2>
+            
+           <div class="soci">
+                    <a href="https://www.linkedin.com/in/meera-abu-alhwar-a2b057339" target="_blank"><img src="./lineked2.png" alt="Linedin"></a>
+                    <a href="mailto:202405144@bethlehem.edu" target="_blank"><img src="./gmail.png" alt="Gmail"></a>
+                    <a href="https://github.com/Meera-Abualhwar" target="_blank"><img src="./github.png" alt="Github"></a>
+                </div>
+
+            <form action="#">
+                <div class="input-group">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <textarea name="message" cols="30" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <p>Copyright &copy; 2026 | All Rights Reserved.</p>
+    </footer> 
+
+</body>
+</html>
